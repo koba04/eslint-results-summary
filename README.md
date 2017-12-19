@@ -1,7 +1,7 @@
 # eslint-summary-chart-formatter
 
 [![CircleCI](https://circleci.com/gh/koba04/eslint-summary-chart-formatter.svg?style=svg)](https://circleci.com/gh/koba04/eslint-summary-chart-formatter)
-
+[![npm version](https://badge.fury.io/js/eslint-summary-chart-formatter.svg)](https://badge.fury.io/js/eslint-summary-chart-formatter)
 
 A ESLint formatter to summarize errors by rules and files using bar charts
 
