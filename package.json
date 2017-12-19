@@ -1,0 +1,25 @@
+{
+  "name": "eslint-results-summary",
+  "version": "0.1.0",
+  "description": "A ESLint formatter to summarize errors by rules and files",
+  "bin": "lib/cli.js",
+  "scripts": {
+    "lint": "eslint lib/*.js",
+    "test": "mocha"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "files": [
+    "lib"
+  ],
+  "author": "koba04",
+  "license": "MIT",
+  "dependencies": {
+    "bar-horizontal": "^0.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.13.1",
+    "mocha": "^4.0.1"
+  }
+}
