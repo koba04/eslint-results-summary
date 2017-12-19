@@ -4,7 +4,7 @@ const path = require('path');
 const assert = require('assert');
 const eslint = require('eslint');
 
-const {summarize} = require('../lib/index');
+const formatter = require('../lib/formatter');
 
 describe('summarize', () => {
   let engine;
@@ -19,7 +19,7 @@ describe('summarize', () => {
   });
   it('should be able to get the summarized results', () => {
     const result = engine.executeOnFiles([path.resolve(__dirname, 'fixtures', '*.js')]);
-    const table = summarize(result.results);
+    const table = formatter(result.results);
     assert.deepStrictEqual(
       table.rules,
       {

@@ -1,8 +1,8 @@
 {
-  "name": "eslint-results-summary",
+  "name": "eslint-results-summary-chart",
   "version": "0.1.0",
-  "description": "A ESLint formatter to summarize errors by rules and files",
-  "bin": "lib/cli.js",
+  "description": "A ESLint formatter to summarize errors by rules and files using bar charts",
+  "main": "lib/index.js",
   "scripts": {
     "lint": "eslint lib/*.js",
     "test": "mocha"
