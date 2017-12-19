@@ -1,5 +1,5 @@
 {
-  "name": "eslint-results-summary-chart",
+  "name": "eslint-summary-chart-formatter",
   "version": "0.1.0",
   "description": "A ESLint formatter to summarize errors by rules and files using bar charts",
   "main": "lib/index.js",

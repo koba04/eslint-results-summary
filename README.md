@@ -1,13 +1,13 @@
-# eslint-results-summary-chart
+# eslint-summary-chart-formatter
 
-[![CircleCI](https://circleci.com/gh/koba04/eslint-results-summary-chart.svg?style=svg)](https://circleci.com/gh/koba04/eslint-results-summary-chart)
+[![CircleCI](https://circleci.com/gh/koba04/eslint-summary-chart-formatter.svg?style=svg)](https://circleci.com/gh/koba04/eslint-summary-chart-formatter)
 
 
 A ESLint formatter to summarize errors by rules and files using bar charts
 
 ```
-% npm install --save-dev eslint-results-summary-chart
-% eslint --format eslint-results-summary-chart src/*.js
+% npm install --save-dev eslint-summary-chart-formatter
+% eslint --format eslint-summary-chart-formatter src/*.js
 
 ==== Files ====
 bar.js : ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇  33.33%
