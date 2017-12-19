@@ -7,7 +7,7 @@ A ESLint formatter to summarize errors by rules and files using bar charts
 
 ```
 % npm install --save-dev eslint-summary-chart-formatter
-% eslint --format eslint-summary-chart-formatter src/*.js
+% eslint --format ./node_modules/eslint-summary-chart-formatter src/*.js
 
 ==== Files ====
 bar.js : ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇  33.33%
